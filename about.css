@@ -1,0 +1,38 @@
+ 
+.contact-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   width: 300px;
+ }
+
+ .contact-item {
+   display: flex;
+   align-items: center;
+   margin: 10px 0;
+ }
+ .contact-item a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+ }
+
+ .contact-item span{
+   margin: 5px;
+   padding-left: 3px;
+ }
+ /* Responsive adjustments for mobile screens */
+ @media (max-width: 600px) {
+   .contact-container {
+     width: 90%; /* Use a percentage to fit smaller screens */
+     padding: 15px;
+   }
+
+   .contact-item span, .contact-item a {
+     font-size: 14px; /* Adjust font size for readability */
+   }
+ }
