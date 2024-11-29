@@ -26,7 +26,7 @@ header {
    font-size: 2rem;   
 }
 .logo img{
-   width: 200px;
+   width: 150px;
 }
 
 nav a {
@@ -201,7 +201,7 @@ footer{
    background: black;
 }
 .footer-content img{
-   width: 200px;
+   width: 150px;
 }
 section{
    padding: 70px 13% 80px;
@@ -260,13 +260,20 @@ section{
 
 @media(max-width:1690px){
    section{
-      padding:50px 5% 40px;
+      padding:40px 5% 40px;
    }
 }
 @media(max-width:1120px){
    .footer{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+      gap: 2rem;
+   }
+}
+@media(max-width:390px){
+   .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(90px, auto));
       gap: 2rem;
    }
 }
