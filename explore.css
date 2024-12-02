@@ -202,7 +202,7 @@ a {
  }
   @media screen and (max-width: 1400px) {
      .imgcontainer{
-        width:90%;
+        width:100%;
      }
 
      .image{
@@ -217,16 +217,40 @@ a {
       }   
   }
 @media screen and (max-width: 1000px) {
+  .imgcontainer{
+    width:100%;
+ }
      .image{
-        width:415px;
-        height: 555px;
+        width:200px;
+        height: 250px;
         margin: 10px;
      }
      .images{
-        padding-top:10px;
+        padding-top:5px;
+        /* padding-left: 1px; */
+        padding-right: 100px;
      }
      .navbar{
         min-height: 100px;
      }
      
   }
+  @media screen and (max-width: 580px) {
+     header{
+      width: 580px;
+     }
+       .image{
+          width:350px;
+          height: 450px;
+          margin: 10px;
+       }
+       .images{
+          padding-top:5px;
+          padding-left: 55px;
+          /* padding-right: 100px; */
+       }
+      footer{
+        width: 580px;
+      }
+       
+    }
