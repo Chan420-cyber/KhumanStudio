@@ -4,7 +4,7 @@ body{
 .font{
    font-family: monospace;
    text-align: center;
-   font-size: 700%;
+   font-size: 400%;
    color: #ff3e00;
 }
 .image{
@@ -24,8 +24,20 @@ a {
       color: black;
     }
  
-    .Home {
+    .Back {
+      background-color: #222;
+      color: #ff3e00;
+      font-size: 30px;
+    }
+    @media screen and (max-width: 580px)
+ {
+   .font{
+      font-size: 700%;
+   }
+   .Back {
       background-color: #222;
       color: #ff3e00;
       font-size: 70px;
+   
     }
+ }

@@ -4,7 +4,7 @@
 .font{
   font-family: monospace;
   text-align: center;
-  font-size: 350%;
+  font-size: 400%;
   color: #ff3e00;
 }
 .image{
@@ -30,12 +30,12 @@ a {
      font-size: 30px;
    }
 
-.Home {
+.Back {
   background-color: #222;
   color: #ff3e00;
   font-size: 30px;
 }
-@media screen and (max-width:800px)
+/* @media screen and (max-width:800px)
 {
   .font{
     font-family: monospace;
@@ -50,7 +50,7 @@ a {
    margin-left: auto;
    margin-right: auto;
   }
-  .Home {
+  .Back {
     font-size: 20px;
   }
   .Episode2 {
@@ -72,7 +72,7 @@ a {
    margin-left: auto;
    margin-right: auto;
   }
-  .Home {
+  .Back {
     font-size: 80px;
     text-align: center;
   }
@@ -80,4 +80,23 @@ a {
     font-size: 80px;
     text-align: center;
   }
+} */
+@media screen and (max-width: 580px)
+{
+  .font{
+     font-size: 700%;
+  }
+  .Back {
+     background-color: #222;
+     color: #ff3e00;
+     font-size: 70px;
+  
+   }
+   
+   .Episode1 {
+     background-color: rgb(205, 203, 200);
+     color: #ff3e00;
+     font-size: 70px;
+  
+   }
 }
