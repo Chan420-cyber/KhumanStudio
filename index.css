@@ -212,6 +212,10 @@ section{
    gap: 3.5rem;
    background: #222;
 }
+.footer-content a:hover{
+   transform: translateY(-2px) translateX(-1px);
+   color:#ff3e00;
+}
 .footer-content h3{
    color:#ff3e00;
    margin-bottom: 1rem;
@@ -258,25 +262,6 @@ section{
 
 }
 
-@media(max-width:1690px){
-   section{
-      padding:40px 5% 40px;
-   }
-}
-@media(max-width:1120px){
-   .footer{
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-      gap: 2rem;
-   }
-}
-@media(max-width:390px){
-   .footer{
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(90px, auto));
-      gap: 2rem;
-   }
-}
 /* slides  */
 /* import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
@@ -342,6 +327,25 @@ section{
 .carousel img:first-child{
    margin-left: 0px;
 }
+@media(max-width:1690px){
+   section{
+      padding:40px 5% 40px;
+   }
+}
+@media(max-width:1120px){
+   .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+      gap: 2rem;
+   }
+}
+@media(max-width:390px){
+   .footer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(90px, auto));
+      gap: 2rem;
+   }
+}
 @media screen and (max-width: 900px) {
    .carousel img{
       width: calc(100% / 2);
@@ -352,3 +356,14 @@ section{
       width: 100%;
    }
 }
+@media screen and (max-width: 600px)
+{
+   .logo img{
+      width: 110px;
+   }
+   .footer-content img{
+      width: 110px;
+   }
+}
+
+

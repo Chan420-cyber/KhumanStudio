@@ -2,9 +2,13 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+}
 
 header{
-  background-color: #262626;
+  background-color: #222;
 }
 
 li{
@@ -33,7 +37,7 @@ a{
   font-size: 2rem;
 }
 .nav-branding img{
-  width: 70px;
+  width: 150px;
 }
 
 .nav-menu{
@@ -48,7 +52,7 @@ a{
 }
 
 .nav-link:hover{
-  color: dodgerblue;
+  color: #ff3e00;
 }
 
 .hamburger{
@@ -61,13 +65,25 @@ a{
   width: 25px;
   height: 3px;
   margin: 5px auto;
+  opacity: 0.8;
   -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
   background-color: white;
 }
 
 .end h4{
-  color: white;
+  color: #ff3e00;
+  font-size: 20px;
+}
+.end b{
+  color: #ff3e00;
+  font-size: 20px;
+}
+.border-bar{
+  text-align: center;
+  color: #ff3e00;
+  font-size: 20px;
+
 }
 @media(max-width:1024px){
   .hamburger{
@@ -83,7 +99,12 @@ a{
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
   }
-
+/* try */
+@media only screen and(max-width: 600px) {
+  .nav ul{
+     display: none;
+  }
+}
   .nav-menu{
     position: fixed;
     left: -100%;
@@ -167,9 +188,9 @@ a {
      margin: auto;
   }
   .images p{
-     font-size: 40px;
+     font-size: 50px;
      font-family: cursive;
-     color: black;
+     color: #ff3e00;
   }
   
   .end{
@@ -193,18 +214,16 @@ a {
       }
       .images p{
         font-size: 20px;
-      }
-      
+      }   
   }
-
-  @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
      .image{
         width:415px;
         height: 555px;
         margin: 10px;
      }
      .images{
-        padding-top: 100px;
+        padding-top:10px;
      }
      .navbar{
         min-height: 100px;
