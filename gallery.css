@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ /* Body and General Layout */
+ body {
+   font-family: Arial, sans-serif;
+   background-color:  #1a1a1a;
+   color: #333;
+   text-align: center;
+   padding: 10px;
+ }
+ 
+ header {
+   background-color: #333;
+   color:#ff1a1a;
+   padding: 20px 0;
+ }
+ 
+ header h1 {
+    font-size: 36px;
+ } 
+ 
+ .gallery {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 15px;
+   margin: 20px auto;
+   max-width: 1000px;
+ }
+ 
+ .image-container {
+   border: 2px solid #ddd;
+   border-radius: 10px;
+   overflow: hidden;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ 
+ .image-container img {
+   width: 100%;
+   height: auto;
+   display: block;
+   object-fit: cover;
+ }
+ 
+ .image-container:hover {
+   transform: scale(1.05);
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+ }
+ 
+ footer {
+   margin-top: 20px;
+   padding: 10px 0;
+   background-color: #333;
+   color: #ff1a1a;
+ }
+ 
+ /* Responsive Design for Laptop Screens (1024px and above) */
+ @media (min-width: 1024px) {
+   header h1 {
+     font-size: 3rem;
+   }
+ 
+   .gallery {
+     gap: 20px;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   }
+ 
+   .image-container {
+     border: 2px solid #ccc;
+   }
+ }
+ 
+ /* Responsive Design for Smaller Laptops/Tablets (768px to 1023px) */
+ @media (max-width: 1023px) {
+   header h1 {
+     font-size: 2.2rem;
+   }
+ 
+   .gallery {
+     gap: 15px;
+     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+   }
+ }
+ 
+ /* Mobile Screens (Up to 767px) */
+ @media (max-width: 767px) {
+   header h1 {
+     font-size: 1.8rem;
+   }
+ 
+   .gallery {
+     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+     gap: 10px;
+   }
+ 
+   footer {
+     font-size: 0.9rem;
+   }
+ }
+ @media (max-width: 380){
+  header h1 {
+    font-size: 2.5rem;
+  }
+ }

@@ -144,7 +144,8 @@ nav a:hover {
 
 .recent{
    font-size: 25px;
-   margin-bottom: 0px;
+   padding-top: 10%;
+   /* margin-bottom: 0px; */
    text-align: center;
 }
 
@@ -181,6 +182,7 @@ nav a:hover {
    overflow: hidden;
    width: 260px;
    text-align: center;
+   padding: 2px 16px;
 }
 
 .anime-card img {
@@ -192,6 +194,10 @@ nav a:hover {
    padding: 10px;
    font-size: 18px;
    color: #ff3e00;
+}
+.anime-card:hover{
+   transform: translateY(2px) translateX(2px);
+   color:white;
 }
 
 /* Footer */
@@ -327,7 +333,7 @@ section{
 .carousel img:first-child{
    margin-left: 0px;
 }
-@media(max-width:1690px){
+@media(min-width:1690px){
    section{
       padding:40px 5% 40px;
    }
@@ -358,11 +364,15 @@ section{
 }
 @media screen and (max-width: 600px)
 {
-   .logo img{
+  
+.logo img{
       width: 110px;
    }
    .footer-content img{
       width: 110px;
+   }
+   footer{
+      font-size: 0.9rem;
    }
 }
 
