@@ -3,108 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KhumanMedia</title>
+    <title>Khuman Media</title>
     <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/b60c4af6f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="logo">
-               <img src="khuman.png">
-            </div>
-            <nav>
-               <a href="https://www.facebook.com/kangleientertainment?mibextid=ZbWKwL" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com/khumanmedia24/profilecard/?igsh=a3ZlOWNycWR0OHhv" class="fa fa-instagram"></a>
-                <a href="explore.html">Studio</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <!-- Hero Section -->
-        <section class="hero-section">
-         <video class="background-video" src="In the first glance ep1.mp4" autoplay muted loop></video>
-            <div class="hero-content">
-                <h1>Welcome to <br>Khuman Media</h1>
-                <a href="explore.html" class="btn">Explore Now</a>
-            </div>
-        </section>
-        <!-- slide section -->
-        <div class="recent">
-            <h2>Manga</h2>
-        </div>
-         <section class="khare">
-        <div class="wrapper"> 
-            <i id="left" class="fa-solid fa-angle-left"></i>  
-            <div class="carousel">
-                <img src="1(TheExcuse)Page1.jpg" alt="img" draggable="false">
-                <img src="2(TheRedZone)Page1.jpg" alt="img" draggable="false">
-                <img src="3(TheRedZoneEpi2)Page1.jpg" alt="img" draggable="false">
-                <img src="4(TheExcuseEpi2)Page1 copy.jpg" alt="img" draggable="false">
-                <img src="5(Hanuba Hanubi pan thaba)Page1.png" alt="img" draggable="false">
-                <img src="1(TheExcuse)Page1.jpg" alt="img" draggable="false">
-                <img src="1(TheExcuse)Page1.jpg" alt="img" draggable="false">
-                <img src="1(TheExcuse)Page1.jpg" alt="img" draggable="false">
-            </div>
-            <i id="right" class="fa-solid fa-angle-right"></i> 
-        </div>
-       </section>
+<!-- navigation bar header -->
+<header>
+   <nav class="navbar">
+      <img src="assets/khuman.png" alt="KhumanMedia Logo">
+    <ul class="nav-menu">
+         <li class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+         </li>
+         <li class="social-icons">
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+         </li>
+         <li class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+         </li>
+         <li class="nav-item">
+            <a href="Manga.html" class="nav-link">MANGA</a>
+         </li>
+         <li class="nav-item">
+         <a href="#" class="nav-link">STUDIO</a>
+         </li>
+         <li class="nav-item">
+            <a href="gallery.html" class="nav-link">GALLERY</a>
+         </li>
+         <li class="nav-item">
+            <a href="about.html" class="nav-link">ABOUT</a>
+         </li>
+         <li class="nav-item">
+            <a href="contact.html" class="nav-link">CONTACT</a>
+         </li>
+    </ul>
+      <div class="hamburger">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+      </div>
+   </nav>
+</header>
+<div>
+   <section class="video-section">
+    <video class="background-video" src="assets/In the first glance ep1.mp4" autoplay muted loop></video>
+       <div class="video-overlay">
+           <h1>Welcome to Khuman Media</h1>
+           <p><i>In the first glance</i></p><br>
+           <a href="video.html" class="btn">Episode 1</a>
+       </div>
+   </section>
+</div>
+<!-- slide section -->
+<div class="recent">
+   <h2>Recent Manga</h2>
+</div>
+<section class="khare">
+<div class="wrapper"> 
+   <i id="left" class="fa-solid fa-angle-left"></i>  
+   <div class="carousel">
+       <!-- <img src="1(TheExcuse)Page1.jpg" alt="img" draggable="false"> -->
+       <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+       <img src="assets/2(TheRedZone)Page1.jpg" alt="img" draggable="false">
+       <img src="assets/3(TheRedZoneEpi2)Page1.jpg" alt="img" draggable="false">
+       <img src="assets/4(TheExcuseEpi2)Page1 copy.jpg" alt="img" draggable="false">
+       <img src="assets/5(Hanuba Hanubi pan thaba)Page1.png" alt="img" draggable="false">
+       <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+       <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+       <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+   </div>
+   <i id="right" class="fa-solid fa-angle-right"></i> 
+</div>
+</section>
 
-        <!-- Featured Animated Section -->
-         <section class="featured-section">
-            <h2>Featured Animation</h2>
-            <div class="anime-grid">
-                <div class="anime-card">
-                    <img src="1(TheExcuse)Page1.jpg" alt="Anime 1">
-                    <h3>The Excuse 1</h3>
-                </div>
-                <div class="anime-card">
-                    <img src="3(TheRedZoneEpi2)Page1.jpg" alt="TRZ(Epi1).html">
-                    <h3>TheRedZone 1</h3>
-                </div>
-                <div class="anime-card">
-                    <img src="4(TheExcuseEpi2)Page1.jpg" alt="Anime 3">
-                    <h3>TheExcuse 2</h3>
-                </div>
-                <div class="anime-card">
-                    <img src="5(Hanuba Hanubi pan thaba)Page1.png" alt="Anime 4">
-                    <h3>Hanuba Hanubi pan thaba</h3>
-                </div>
-            </div>
-        </section> 
-    </main>
-    <!-- footer sectoion -->
-    <footer>
-        <section class="footer">
-        <div class="footer-content">
-            <img src="khuman.png">
-            <h3>Follow Us</h3>
-            
-            <a href="https://www.facebook.com/kangleientertainment?mibextid=ZbWKwL" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com/khumanmedia24/profilecard/?igsh=a3ZlOWNycWR0OHhv" class="fa fa-instagram"></a>
-            
-        </div>
-        <div class="footer-content">
-                <h3>Contact Us</h3>
-                <p>Email: khumanmedia24@gmail.com</p>
-                <p>Phone: 084150 65716</p>
-                <p>Address: Imphal East 17514, Manipur India</p>
-        </div>
-        <div class="footer-content">
-            <h3>Quick Links</h3>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            </div>
-        </section><br>
-    <div class="border-bar">
-        <p>&copy; 2024 Khuman Media. All rights reserved.</p>
+<!-- image section -->
+ <div class="manga">
+<h1>Manga</h1>
+</div> 
+<div>
+    <div class="images">
+     <a href ="TE(Epi1).html"><img src="assets/1(TheExcuse)Page1.jpg" class="image"><p>THE EXCUSE EPISODE 1</p></a>
+     <a href ="TRZ(Epi1).html"><img src="assets/2(TheRedZone)Page1.jpg" class="image" ><p>THE RED ZONE 1</p></a>
+     <a href ="Hanuba Hanubi pan thaba.html"><img src="assets/5(Hanuba-Hanubi-pan-thaba)Page1.jpg" class="image" alt="unsupported"><p>HANUBA HANUBI PAN THABA</p></a>
+     <a href ="TE(Epi2).html"><img src="assets/1(TheExcuse)Page1.jpg" class="image" ><p>THE EXCUSE EPISODE 2</p></a>
+     <a href ="TRZ(Epi2).html"><img src="assets/3(TheRedZoneEpi2)Page1.jpg" class="image"><p>THE RED ZONE 2</p></a>
     </div>
-</footer>
-    <script src="index.js"></script>
+     
+</div>
+
+<!-- footer part    -->
+
+    <footer class="footer">
+        <!-- Logo -->
+        <div class="footer-logo">
+            <img src="assets/khuman.png" alt="KhumanMedia Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="footer-nav">
+            <a href="#">HOME</a>
+            <a href="#">MANGA</a>
+            <a href="#">ANIMATED VEDIOS</a>
+            <a href="#">STUDIO</a>
+            <a href="#">GALLERY</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+
+        <div class="footer-social">
+         <p>FOLLOW KHUMAN MEDIA</p>
+         <div class="social-icons">
+             <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+             <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+             <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+         </div>
+     </div>
+
+        <!-- Legal Links -->
+        <div class="footer-legal">
+            <p>© 2024 KHUMAN MEDIA ANIMATION. ALL RIGHTS RESERVED.</p>
+            <!-- <p>
+                <a href="#">PRIVACY POLICY</a> |
+                <a href="#">COOKIE NOTICE</a> |
+                <a href="#">TERMS OF SERVICE</a> |
+                <a href="#">YOUTUBE TERMS OF SERVICE</a> |
+                <a href="#">GOOGLE PRIVACY POLICY</a>
+            </p> -->
+        </div>
+    </footer>
+    <script src="/index.js"></script>
+    <script src="/slide.js"></script>
 </body>
 </html>
