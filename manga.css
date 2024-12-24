@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body{
- background-color: cod7d5;
+ background-color: #2d3e58;
 }
 
 header{
-  background-color: #1c2e4a;
+  background-color: #0f1a2b;
 }
 
 li{
@@ -118,3 +118,109 @@ a{
      left: 0;
    }
 }
+/* image section */
+.image{
+  border-radius: 13px;
+  width: 320px;
+ height: 380px;
+ object-fit: cover;
+ }
+ .images{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ }
+ 
+ .images a{
+ cursor: pointer;
+ margin: 10px;
+ transition: 400ms;
+ }
+ 
+ .images a:hover{
+ transform: scale(1.03);
+ }
+ 
+ .images p{
+     color: rgb(247, 244, 240);
+     text-decoration: none;
+     text-align: center;
+ }
+/* Footer Styles */
+
+.footer {
+  background-color: #0f1a2b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo .logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-social span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-info {
+  font-size: 12px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+/* Social Media Section */
+.social-icons a {
+  color: #f0f1f4; /* Icon color */
+  font-size: 24px; /* Adjust icon size */
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fc6e51; /* Hover color (e.g., Twitter blue) */
+}
+  
